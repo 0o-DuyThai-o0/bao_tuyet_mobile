@@ -1,0 +1,1656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">  
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="container">
+
+        <!-- -------------------menu-------------------- -->
+        <div id="menu">
+          <div class="menu">
+            <div class="navbar navbar-expand-lg navbar-light fixed-top menu_con">
+              <a href="#" class="logo">
+                <img src="./img/img_logo.png" alt="" width="50%" height="auto">
+              </a>
+  
+              <form class="mt-2 mt-md-0 form_menu">
+                <input class="form-control" type="text" placeholder="Nhập thông tin cần tìm...">
+                <button class="btn" type="submit">tìm kiếm</button>
+              </form>
+  
+              <div class="theMenucach">
+                <button class="navbar-toggler nut_button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+  
+                  <div class="collapse navbar-collapse bg-light" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto ul_cha">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="#">
+                          <img src="./img/icon_home.png" alt="" height="25px" width="25px"><br>
+                          <div class="the_ten">TRANG CHỦ</div>
+                          <span class="sr-only">(current)</span>
+                        </a>
+                      </li>
+        
+                      <li class="nav-item dropdown">
+                          <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img src="./img/icon_tao.png" alt="" height="25px" width="25px"><br>
+                            <div class="the_ten">IPHONE</div>
+                          </a>
+                          <ul class="dropdown-menu navbar_phu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                          </ul>
+                      </li>
+        
+                      <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <img src="./img/icon_tao2.png" alt="" height="25px" width="25px"><br>
+                          <div class="the_ten">IPAD</div>
+                        </a>
+                        <ul class="dropdown-menu navbar_phu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+        
+                      <li class="nav-item dropdown">
+                        <a class="nav-link" href="#">
+                        <img src="./img/icon_watch.png" alt="" height="25px" width="25px"><br>
+                        <div class="the_ten">WATCH</div>
+                      </a></li>
+        
+                      <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <img src="./img/icon_tao3.png" alt="" height="25px" width="25px"><br>
+                          <div class="the_ten">SAMSUNG</div>
+                        </a>
+                        <ul class="dropdown-menu navbar_phu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+        
+                      <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <img src="./img/icon_tao4.png" alt="" height="25px" width="25px"><br>
+                          <div class="the_ten">ĐIỆN THOẠI</div>
+                        </a>
+                        <ul class="dropdown-menu bg-light navbar_phu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+        
+                      <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <img src="./img/icon_phukien.png" alt="" height="25px" width="25px"><br>
+                          <div class="the_ten">PHỤ KIỆN</div>
+                        </a>
+                        <ul class="dropdown-menu navbar_phu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+        
+                      <li class="nav-item"> 
+                        <a class="nav-link" href="#">
+                        <img src="./img/icon_khuyenmai.png" alt="" height="25px" width="25px"><br>
+                        <div class="the_ten">KHUYẾN MÃI</div>
+                      </a></li>
+                    </ul>
+                  </div>
+              </div> 
+            </div>
+          </div>
+        </div>
+      </div>
+        <!-- -------------------banner-------------------- -->
+        <div id="banner">
+          <div class="swiper mySwiper1">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                  <img src="./img/slider1.jpg" alt="" width="100%"  height="auto">
+              </div>
+              <div class="swiper-slide">
+                  <img src="./img/slider2.jpg" alt="" width="100%"  height="auto">
+              </div>
+              <div class="swiper-slide">
+                  <img src="./img/slider3.jpg" alt="" width="100%"  height="auto">
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+          <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+          <Script src="./js/index.js"></Script>
+        </div>
+      
+      <div class="container">
+        <!-- -------------------thong_tin-------------------- -->
+        <div id="thong_tin">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+              <div class="name_thong_tin">
+                Bảo Tuyết Mobile
+              </div>
+              <div class="name_thong_tin2">
+                "Trung tâm Smartphone chính hãng tốt nhất"
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- -------------------thong_tin2-------------------- -->
+        <div id="thong_tin2">
+          <div class="swiper mySwiper2">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                  <img src="./img/tt2_1.png" alt="">
+              </div>
+              <div class="swiper-slide">
+                  <img src="./img/tt2_2.png" alt="">
+              </div>
+              <div class="swiper-slide">
+                  <img src="./img/tt2_3.png" alt="">
+              </div>
+              <div class="swiper-slide">
+                  <img src="./img/tt2_4.png" alt="">
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+          <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+          <Script src="./js/index2.js"></Script>
+        </div>
+
+        <!-- -------------------iphone-------------------- -->
+        <div id="iphone">
+          <div class="loai_iphone">
+            <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2 can_iphone">
+                <a href="#iphone"><b>IPHONE</b></a>
+              </div>
+  
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10">
+                <div class="the_menu">
+                    <ul class="menu_ul_dt">
+                      <li><a class="the_menu_a" href="#">iPhone 13 pro max</a></li>
+                      <li><a class="the_menu_a" href="#">iPhone 13 pro</a></li>
+                      <li><a class="the_menu_a" href="#">iPhone 13</a></li>
+                      <li><a class="the_menu_a" href="#">iPhone 12 pro max</a></li>
+                      <li><a class="the_menu_a" href="#">iPhone 12 pro</a></li>
+                      <li><a class="the_menu_a" href="#">iPhone 12 mini</a></li>
+                      <li><a class="the_menu_a" href="#">Xem tất cả</a></li>
+                    </ul>
+                </div>  
+              </div>
+            </div>
+          </div>
+
+          <div class="iphone_smartphone">
+            <div class="row iphone_smartphone_row">
+              
+              <div class="col-xs-12 col-sm-6 sp">
+                <div class="anh_dt">
+                  <img src="./img/img_dtdd.jpg" alt="" width="90%"  height="auto">
+                </div>
+
+                <a href="#a" class="name_dt">
+                  IPHONE 13 PRO 128GB CŨ 95%, CÒN MỚI 99,99% APPLE LL/A (1 SIM VẬT LÝ) BẢN QUỐC TẾ
+                </a>
+
+                <div class="gia_dt">
+                  20.868.000 đ
+                </div>
+
+                <div class="hotro_dt">
+                  HỖ TRỢ SHIP COD NHẬN MÁY THANH TOÁN…
+                </div>
+
+                <div class="phan_chon">
+                  <div class="nut_mua_ngay">
+                    <button class="mua">Mua ngay</button>
+                  </div>
+
+                  <div class="nut_so_sanh">
+                    <button class="sosanh">So Sánh</button>
+                  </div>
+                </div>
+              </div>
+
+              
+              <div class="col-xs-12 col-sm-6 sp">
+                <div class="anh_dt">
+                  <img src="./img/img_dtdd.jpg" alt="" width="90%"  height="auto">
+                </div>
+
+                <a href="#a" class="name_dt">
+                  IPHONE 13 PRO 128GB CŨ 95%, CÒN MỚI 99,99% APPLE LL/A (1 SIM VẬT LÝ) BẢN QUỐC TẾ
+                </a>
+
+                <div class="gia_dt">
+                  20.868.000 đ
+                </div>
+
+                <div class="hotro_dt">
+                  HỖ TRỢ SHIP COD NHẬN MÁY THANH TOÁN…
+                </div>
+
+                <div class="phan_chon">
+                  <div class="nut_mua_ngay">
+                    <button class="mua">Mua ngay</button>
+                  </div>
+
+                  <div class="nut_so_sanh">
+                    <button class="sosanh">So Sánh</button>
+                  </div>
+                </div>
+              </div>
+
+              
+              <div class="col-xs-12 col-sm-6 sp">
+                <div class="anh_dt">
+                  <img src="./img/img_dtdd.jpg" alt="" width="90%"  height="auto">
+                </div>
+
+                <a href="#a" class="name_dt">
+                  IPHONE 13 PRO 128GB CŨ 95%, CÒN MỚI 99,99% APPLE LL/A (1 SIM VẬT LÝ) BẢN QUỐC TẾ
+                </a>
+
+                <div class="gia_dt">
+                  20.868.000 đ
+                </div>
+
+                <div class="hotro_dt">
+                  HỖ TRỢ SHIP COD NHẬN MÁY THANH TOÁN…
+                </div>
+
+                <div class="phan_chon">
+                  <div class="nut_mua_ngay">
+                    <button class="mua">Mua ngay</button>
+                  </div>
+
+                  <div class="nut_so_sanh">
+                    <button class="sosanh">So Sánh</button>
+                  </div>
+                </div>
+              </div>
+
+              
+              <div class="col-xs-12 col-sm-6 sp">
+                <div class="anh_dt">
+                  <img src="./img/img_dtdd.jpg" alt="" width="90%"  height="auto">
+                </div>
+
+                <a href="#a" class="name_dt">
+                  IPHONE 13 PRO 128GB CŨ 95%, CÒN MỚI 99,99% APPLE LL/A (1 SIM VẬT LÝ) BẢN QUỐC TẾ
+                </a>
+
+                <div class="gia_dt">
+                  20.868.000 đ
+                </div>
+
+                <div class="hotro_dt">
+                  HỖ TRỢ SHIP COD NHẬN MÁY THANH TOÁN…
+                </div>
+
+                <div class="phan_chon">
+                  <div class="nut_mua_ngay">
+                    <button class="mua">Mua ngay</button>
+                  </div>
+
+                  <div class="nut_so_sanh">
+                    <button class="sosanh">So Sánh</button>
+                  </div>
+                </div>
+              </div>
+
+              
+              <div class="col-xs-12 col-sm-6 sp">
+                <div class="anh_dt">
+                  <img src="./img/img_dtdd.jpg" alt="" width="90%"  height="auto">
+                </div>
+
+                <a href="#a" class="name_dt">
+                  IPHONE 13 PRO 128GB CŨ 95%, CÒN MỚI 99,99% APPLE LL/A (1 SIM VẬT LÝ) BẢN QUỐC TẾ
+                </a>
+
+                <div class="gia_dt">
+                  20.868.000 đ
+                </div>
+
+                <div class="hotro_dt">
+                  HỖ TRỢ SHIP COD NHẬN MÁY THANH TOÁN…
+                </div>
+
+                <div class="phan_chon">
+                  <div class="nut_mua_ngay">
+                    <button class="mua">Mua ngay</button>
+                  </div>
+
+                  <div class="nut_so_sanh">
+                    <button class="sosanh">So Sánh</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 sp">
+                <div class="anh_dt">
+                  <img src="./img/img_dtdd.jpg" alt="" width="90%"  height="auto">
+                </div>
+
+                <a href="#a" class="name_dt">
+                  IPHONE 13 PRO 128GB CŨ 95%, CÒN MỚI 99,99% APPLE LL/A (1 SIM VẬT LÝ) BẢN QUỐC TẾ
+                </a>
+
+                <div class="gia_dt">
+                  20.868.000 đ
+                </div>
+
+                <div class="hotro_dt">
+                  HỖ TRỢ SHIP COD NHẬN MÁY THANH TOÁN…
+                </div>
+
+                <div class="phan_chon">
+                  <div class="nut_mua_ngay">
+                    <button class="mua">Mua ngay</button>
+                  </div>
+
+                  <div class="nut_so_sanh">
+                    <button class="sosanh">So Sánh</button>
+                  </div>
+                </div>
+              </div>
+
+              
+              <div class="col-xs-12 col-sm-6 sp">
+                <div class="anh_dt">
+                  <img src="./img/img_dtdd.jpg" alt="" width="90%"  height="auto">
+                </div>
+
+                <a href="#a" class="name_dt">
+                  IPHONE 13 PRO 128GB CŨ 95%, CÒN MỚI 99,99% APPLE LL/A (1 SIM VẬT LÝ) BẢN QUỐC TẾ
+                </a>
+
+                <div class="gia_dt">
+                  20.868.000 đ
+                </div>
+
+                <div class="hotro_dt">
+                  HỖ TRỢ SHIP COD NHẬN MÁY THANH TOÁN…
+                </div>
+
+                <div class="phan_chon">
+                  <div class="nut_mua_ngay">
+                    <button class="mua">Mua ngay</button>
+                  </div>
+
+                  <div class="nut_so_sanh">
+                    <button class="sosanh">So Sánh</button>
+                  </div>
+                </div>
+              </div>
+
+              
+              <div class="col-xs-12 col-sm-6 sp">
+                <div class="anh_dt">
+                  <img src="./img/img_dtdd.jpg" alt="" width="90%"  height="auto">
+                </div>
+
+                <a href="#a" class="name_dt">
+                  IPHONE 13 PRO 128GB CŨ 95%, CÒN MỚI 99,99% APPLE LL/A (1 SIM VẬT LÝ) BẢN QUỐC TẾ
+                </a>
+
+                <div class="gia_dt">
+                  20.868.000 đ
+                </div>
+
+                <div class="hotro_dt">
+                  HỖ TRỢ SHIP COD NHẬN MÁY THANH TOÁN…
+                </div>
+
+                <div class="phan_chon">
+                  <div class="nut_mua_ngay">
+                    <button class="mua">Mua ngay</button>
+                  </div>
+
+                  <div class="nut_so_sanh">
+                    <button class="sosanh">So Sánh</button>
+                  </div>
+                </div>
+              </div>
+
+              
+              <div class="col-xs-12 col-sm-6 sp">
+                <div class="anh_dt">
+                  <img src="./img/img_dtdd.jpg" alt="" width="90%"  height="auto">
+                </div>
+
+                <a href="#a" class="name_dt">
+                  IPHONE 13 PRO 128GB CŨ 95%, CÒN MỚI 99,99% APPLE LL/A (1 SIM VẬT LÝ) BẢN QUỐC TẾ
+                </a>
+
+                <div class="gia_dt">
+                  20.868.000 đ
+                </div>
+
+                <div class="hotro_dt">
+                  HỖ TRỢ SHIP COD NHẬN MÁY THANH TOÁN…
+                </div>
+
+                <div class="phan_chon">
+                  <div class="nut_mua_ngay">
+                    <button class="mua">Mua ngay</button>
+                  </div>
+
+                  <div class="nut_so_sanh">
+                    <button class="sosanh">So Sánh</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 sp">
+                <div class="anh_dt">
+                  <img src="./img/img_dtdd.jpg" alt="" width="90%"  height="auto">
+                </div>
+
+                <a href="#a" class="name_dt">
+                  IPHONE 13 PRO 128GB CŨ 95%, CÒN MỚI 99,99% APPLE LL/A (1 SIM VẬT LÝ) BẢN QUỐC TẾ
+                </a>
+
+                <div class="gia_dt">
+                  20.868.000 đ
+                </div>
+
+                <div class="hotro_dt">
+                  HỖ TRỢ SHIP COD NHẬN MÁY THANH TOÁN…
+                </div>
+
+                <div class="phan_chon">
+                  <div class="nut_mua_ngay">
+                    <button class="mua">Mua ngay</button>
+                  </div>
+
+                  <div class="nut_so_sanh">
+                    <button class="sosanh">So Sánh</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- -------------------iphone-------------------- -->
+        <div id="iphone">
+          <div class="loai_iphone">
+            <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2 can_iphone">
+                <a href="#iphone"><b>SAMSUNG</b></a>
+              </div>
+  
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10">
+                <div class="the_menu">
+                    <ul class="menu_ul_dt">
+                      <li><a class="the_menu_a" href="#">iPhone 13 pro max</a></li>
+                      <li><a class="the_menu_a" href="#">iPhone 13 pro</a></li>
+                      <li><a class="the_menu_a" href="#">iPhone 13</a></li>
+                      <li><a class="the_menu_a" href="#">iPhone 12 pro max</a></li>
+                      <li><a class="the_menu_a" href="#">iPhone 12 pro</a></li>
+                      <li><a class="the_menu_a" href="#">iPhone 12 mini</a></li>
+                      <li><a class="the_menu_a" href="#">Xem tất cả</a></li>
+                    </ul>
+                </div>  
+              </div>
+            </div>
+          </div>
+
+          <div class="iphone_smartphone">
+            <div class="row iphone_smartphone_row">
+              
+              <div class="col-xs-12 col-sm-6 sp">
+                <div class="anh_dt">
+                  <img src="./img/img_dtdd.jpg" alt="" width="90%"  height="auto">
+                </div>
+
+                <a href="#a" class="name_dt">
+                  IPHONE 13 PRO 128GB CŨ 95%, CÒN MỚI 99,99% APPLE LL/A (1 SIM VẬT LÝ) BẢN QUỐC TẾ
+                </a>
+
+                <div class="gia_dt">
+                  20.868.000 đ
+                </div>
+
+                <div class="hotro_dt">
+                  HỖ TRỢ SHIP COD NHẬN MÁY THANH TOÁN…
+                </div>
+
+                <div class="phan_chon">
+                  <div class="nut_mua_ngay">
+                    <button class="mua">Mua ngay</button>
+                  </div>
+
+                  <div class="nut_so_sanh">
+                    <button class="sosanh">So Sánh</button>
+                  </div>
+                </div>
+              </div>
+
+              
+              <div class="col-xs-12 col-sm-6 sp">
+                <div class="anh_dt">
+                  <img src="./img/img_dtdd.jpg" alt="" width="90%"  height="auto">
+                </div>
+
+                <a href="#a" class="name_dt">
+                  IPHONE 13 PRO 128GB CŨ 95%, CÒN MỚI 99,99% APPLE LL/A (1 SIM VẬT LÝ) BẢN QUỐC TẾ
+                </a>
+
+                <div class="gia_dt">
+                  20.868.000 đ
+                </div>
+
+                <div class="hotro_dt">
+                  HỖ TRỢ SHIP COD NHẬN MÁY THANH TOÁN…
+                </div>
+
+                <div class="phan_chon">
+                  <div class="nut_mua_ngay">
+                    <button class="mua">Mua ngay</button>
+                  </div>
+
+                  <div class="nut_so_sanh">
+                    <button class="sosanh">So Sánh</button>
+                  </div>
+                </div>
+              </div>
+
+              
+              <div class="col-xs-12 col-sm-6 sp">
+                <div class="anh_dt">
+                  <img src="./img/img_dtdd.jpg" alt="" width="90%"  height="auto">
+                </div>
+
+                <a href="#a" class="name_dt">
+                  IPHONE 13 PRO 128GB CŨ 95%, CÒN MỚI 99,99% APPLE LL/A (1 SIM VẬT LÝ) BẢN QUỐC TẾ
+                </a>
+
+                <div class="gia_dt">
+                  20.868.000 đ
+                </div>
+
+                <div class="hotro_dt">
+                  HỖ TRỢ SHIP COD NHẬN MÁY THANH TOÁN…
+                </div>
+
+                <div class="phan_chon">
+                  <div class="nut_mua_ngay">
+                    <button class="mua">Mua ngay</button>
+                  </div>
+
+                  <div class="nut_so_sanh">
+                    <button class="sosanh">So Sánh</button>
+                  </div>
+                </div>
+              </div>
+
+              
+              <div class="col-xs-12 col-sm-6 sp">
+                <div class="anh_dt">
+                  <img src="./img/img_dtdd.jpg" alt="" width="90%"  height="auto">
+                </div>
+
+                <a href="#a" class="name_dt">
+                  IPHONE 13 PRO 128GB CŨ 95%, CÒN MỚI 99,99% APPLE LL/A (1 SIM VẬT LÝ) BẢN QUỐC TẾ
+                </a>
+
+                <div class="gia_dt">
+                  20.868.000 đ
+                </div>
+
+                <div class="hotro_dt">
+                  HỖ TRỢ SHIP COD NHẬN MÁY THANH TOÁN…
+                </div>
+
+                <div class="phan_chon">
+                  <div class="nut_mua_ngay">
+                    <button class="mua">Mua ngay</button>
+                  </div>
+
+                  <div class="nut_so_sanh">
+                    <button class="sosanh">So Sánh</button>
+                  </div>
+                </div>
+              </div>
+
+              
+              <div class="col-xs-12 col-sm-6 sp">
+                <div class="anh_dt">
+                  <img src="./img/img_dtdd.jpg" alt="" width="90%"  height="auto">
+                </div>
+
+                <a href="#a" class="name_dt">
+                  IPHONE 13 PRO 128GB CŨ 95%, CÒN MỚI 99,99% APPLE LL/A (1 SIM VẬT LÝ) BẢN QUỐC TẾ
+                </a>
+
+                <div class="gia_dt">
+                  20.868.000 đ
+                </div>
+
+                <div class="hotro_dt">
+                  HỖ TRỢ SHIP COD NHẬN MÁY THANH TOÁN…
+                </div>
+
+                <div class="phan_chon">
+                  <div class="nut_mua_ngay">
+                    <button class="mua">Mua ngay</button>
+                  </div>
+
+                  <div class="nut_so_sanh">
+                    <button class="sosanh">So Sánh</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- -------------------iphone-------------------- -->
+        <div id="iphone">
+          <div class="loai_iphone">
+            <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2 can_iphone">
+                <a href="#iphone"><b>OPPO </b></a>
+              </div>
+  
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10">
+                <div class="the_menu">
+                    <ul class="menu_ul_dt">
+                      <li><a class="the_menu_a" href="#">iPhone 13 pro max</a></li>
+                      <li><a class="the_menu_a" href="#">iPhone 13 pro</a></li>
+                      <li><a class="the_menu_a" href="#">iPhone 13</a></li>
+                      <li><a class="the_menu_a" href="#">iPhone 12 pro max</a></li>
+                      <li><a class="the_menu_a" href="#">iPhone 12 pro</a></li>
+                      <li><a class="the_menu_a" href="#">iPhone 12 mini</a></li>
+                      <li><a class="the_menu_a" href="#">Xem tất cả</a></li>
+                    </ul>
+                </div>  
+              </div>
+            </div>
+          </div>
+
+          <div class="iphone_smartphone">
+            <div class="row iphone_smartphone_row">
+              <div class="col-xs-12 col-sm-6 sp">
+                <div class="anh_dt">
+                  <img src="./img/img_dtdd.jpg" alt="" width="90%"  height="auto">
+                </div>
+
+                <a href="#a" class="name_dt">
+                  IPHONE 13 PRO 128GB CŨ 95%, CÒN MỚI 99,99% APPLE LL/A (1 SIM VẬT LÝ) BẢN QUỐC TẾ
+                </a>
+
+                <div class="gia_dt">
+                  20.868.000 đ
+                </div>
+
+                <div class="hotro_dt">
+                  HỖ TRỢ SHIP COD NHẬN MÁY THANH TOÁN…
+                </div>
+
+                <div class="phan_chon">
+                  <div class="nut_mua_ngay">
+                    <button class="mua">Mua ngay</button>
+                  </div>
+
+                  <div class="nut_so_sanh">
+                    <button class="sosanh">So Sánh</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 sp">
+                <div class="anh_dt">
+                  <img src="./img/img_dtdd.jpg" alt="" width="90%"  height="auto">
+                </div>
+
+                <a href="#a" class="name_dt">
+                  IPHONE 13 PRO 128GB CŨ 95%, CÒN MỚI 99,99% APPLE LL/A (1 SIM VẬT LÝ) BẢN QUỐC TẾ
+                </a>
+
+                <div class="gia_dt">
+                  20.868.000 đ
+                </div>
+
+                <div class="hotro_dt">
+                  HỖ TRỢ SHIP COD NHẬN MÁY THANH TOÁN…
+                </div>
+
+                <div class="phan_chon">
+                  <div class="nut_mua_ngay">
+                    <button class="mua">Mua ngay</button>
+                  </div>
+
+                  <div class="nut_so_sanh">
+                    <button class="sosanh">So Sánh</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 sp">
+                <div class="anh_dt">
+                  <img src="./img/img_dtdd.jpg" alt="" width="90%"  height="auto">
+                </div>
+
+                <a href="#a" class="name_dt">
+                  IPHONE 13 PRO 128GB CŨ 95%, CÒN MỚI 99,99% APPLE LL/A (1 SIM VẬT LÝ) BẢN QUỐC TẾ
+                </a>
+
+                <div class="gia_dt">
+                  20.868.000 đ
+                </div>
+
+                <div class="hotro_dt">
+                  HỖ TRỢ SHIP COD NHẬN MÁY THANH TOÁN…
+                </div>
+
+                <div class="phan_chon">
+                  <div class="nut_mua_ngay">
+                    <button class="mua">Mua ngay</button>
+                  </div>
+
+                  <div class="nut_so_sanh">
+                    <button class="sosanh">So Sánh</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 sp">
+                <div class="anh_dt">
+                  <img src="./img/img_dtdd.jpg" alt="" width="90%"  height="auto">
+                </div>
+
+                <a href="#a" class="name_dt">
+                  IPHONE 13 PRO 128GB CŨ 95%, CÒN MỚI 99,99% APPLE LL/A (1 SIM VẬT LÝ) BẢN QUỐC TẾ
+                </a>
+
+                <div class="gia_dt">
+                  20.868.000 đ
+                </div>
+
+                <div class="hotro_dt">
+                  HỖ TRỢ SHIP COD NHẬN MÁY THANH TOÁN…
+                </div>
+
+                <div class="phan_chon">
+                  <div class="nut_mua_ngay">
+                    <button class="mua">Mua ngay</button>
+                  </div>
+
+                  <div class="nut_so_sanh">
+                    <button class="sosanh">So Sánh</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 sp">
+                <div class="anh_dt">
+                  <img src="./img/img_dtdd.jpg" alt="" width="90%"  height="auto">
+                </div>
+
+                <a href="#a" class="name_dt">
+                  IPHONE 13 PRO 128GB CŨ 95%, CÒN MỚI 99,99% APPLE LL/A (1 SIM VẬT LÝ) BẢN QUỐC TẾ
+                </a>
+
+                <div class="gia_dt">
+                  20.868.000 đ
+                </div>
+
+                <div class="hotro_dt">
+                  HỖ TRỢ SHIP COD NHẬN MÁY THANH TOÁN…
+                </div>
+
+                <div class="phan_chon">
+                  <div class="nut_mua_ngay">
+                    <button class="mua">Mua ngay</button>
+                  </div>
+
+                  <div class="nut_so_sanh">
+                    <button class="sosanh">So Sánh</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- -------------------iphone-------------------- -->
+        <div id="iphone">
+          <div class="loai_iphone">
+            <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2 can_iphone">
+                <a href="#iphone"><b>SAMSUNG</b></a>
+              </div>
+  
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10">
+                <div class="the_menu">
+                    <ul class="menu_ul_dt">
+                      <li><a class="the_menu_a" href="#">iPhone 13 pro max</a></li>
+                      <li><a class="the_menu_a" href="#">iPhone 13 pro</a></li>
+                      <li><a class="the_menu_a" href="#">iPhone 13</a></li>
+                      <li><a class="the_menu_a" href="#">iPhone 12 pro max</a></li>
+                      <li><a class="the_menu_a" href="#">iPhone 12 pro</a></li>
+                      <li><a class="the_menu_a" href="#">iPhone 12 mini</a></li>
+                      <li><a class="the_menu_a" href="#">Xem tất cả</a></li>
+                    </ul>
+                </div>  
+              </div>
+            </div>
+          </div>
+
+          <div class="iphone_smartphone">
+            <div class="row iphone_smartphone_row">
+              <div class="col-xs-12 col-sm-6 sp">
+                <div class="anh_dt">
+                  <img src="./img/img_dtdd.jpg" alt="" width="90%"  height="auto">
+                </div>
+
+                <a href="#a" class="name_dt">
+                  IPHONE 13 PRO 128GB CŨ 95%, CÒN MỚI 99,99% APPLE LL/A (1 SIM VẬT LÝ) BẢN QUỐC TẾ
+                </a>
+
+                <div class="gia_dt">
+                  20.868.000 đ
+                </div>
+
+                <div class="hotro_dt">
+                  HỖ TRỢ SHIP COD NHẬN MÁY THANH TOÁN…
+                </div>
+
+                <div class="phan_chon">
+                  <div class="nut_mua_ngay">
+                    <button class="mua">Mua ngay</button>
+                  </div>
+
+                  <div class="nut_so_sanh">
+                    <button class="sosanh">So Sánh</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 sp">
+                <div class="anh_dt">
+                  <img src="./img/img_dtdd.jpg" alt="" width="90%"  height="auto">
+                </div>
+
+                <a href="#a" class="name_dt">
+                  IPHONE 13 PRO 128GB CŨ 95%, CÒN MỚI 99,99% APPLE LL/A (1 SIM VẬT LÝ) BẢN QUỐC TẾ
+                </a>
+
+                <div class="gia_dt">
+                  20.868.000 đ
+                </div>
+
+                <div class="hotro_dt">
+                  HỖ TRỢ SHIP COD NHẬN MÁY THANH TOÁN…
+                </div>
+
+                <div class="phan_chon">
+                  <div class="nut_mua_ngay">
+                    <button class="mua">Mua ngay</button>
+                  </div>
+
+                  <div class="nut_so_sanh">
+                    <button class="sosanh">So Sánh</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 sp">
+                <div class="anh_dt">
+                  <img src="./img/img_dtdd.jpg" alt="" width="90%"  height="auto">
+                </div>
+
+                <a href="#a" class="name_dt">
+                  IPHONE 13 PRO 128GB CŨ 95%, CÒN MỚI 99,99% APPLE LL/A (1 SIM VẬT LÝ) BẢN QUỐC TẾ
+                </a>
+
+                <div class="gia_dt">
+                  20.868.000 đ
+                </div>
+
+                <div class="hotro_dt">
+                  HỖ TRỢ SHIP COD NHẬN MÁY THANH TOÁN…
+                </div>
+
+                <div class="phan_chon">
+                  <div class="nut_mua_ngay">
+                    <button class="mua">Mua ngay</button>
+                  </div>
+
+                  <div class="nut_so_sanh">
+                    <button class="sosanh">So Sánh</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 sp">
+                <div class="anh_dt">
+                  <img src="./img/img_dtdd.jpg" alt="" width="90%"  height="auto">
+                </div>
+
+                <a href="#a" class="name_dt">
+                  IPHONE 13 PRO 128GB CŨ 95%, CÒN MỚI 99,99% APPLE LL/A (1 SIM VẬT LÝ) BẢN QUỐC TẾ
+                </a>
+
+                <div class="gia_dt">
+                  20.868.000 đ
+                </div>
+
+                <div class="hotro_dt">
+                  HỖ TRỢ SHIP COD NHẬN MÁY THANH TOÁN…
+                </div>
+
+                <div class="phan_chon">
+                  <div class="nut_mua_ngay">
+                    <button class="mua">Mua ngay</button>
+                  </div>
+
+                  <div class="nut_so_sanh">
+                    <button class="sosanh">So Sánh</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 sp">
+                <div class="anh_dt">
+                  <img src="./img/img_dtdd.jpg" alt="" width="90%"  height="auto">
+                </div>
+
+                <a href="#a" class="name_dt">
+                  IPHONE 13 PRO 128GB CŨ 95%, CÒN MỚI 99,99% APPLE LL/A (1 SIM VẬT LÝ) BẢN QUỐC TẾ
+                </a>
+
+                <div class="gia_dt">
+                  20.868.000 đ
+                </div>
+
+                <div class="hotro_dt">
+                  HỖ TRỢ SHIP COD NHẬN MÁY THANH TOÁN…
+                </div>
+
+                <div class="phan_chon">
+                  <div class="nut_mua_ngay">
+                    <button class="mua">Mua ngay</button>
+                  </div>
+
+                  <div class="nut_so_sanh">
+                    <button class="sosanh">So Sánh</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- -------------------iphone-------------------- -->
+        <div id="iphone">
+          <div class="loai_iphone">
+            <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2 can_iphone">
+                <a href="#iphone"><b>SAMSUNG</b></a>
+              </div>
+  
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10">
+                <div class="the_menu">
+                    <ul class="menu_ul_dt">
+                      <li><a class="the_menu_a" href="#">iPhone 13 pro max</a></li>
+                      <li><a class="the_menu_a" href="#">iPhone 13 pro</a></li>
+                      <li><a class="the_menu_a" href="#">iPhone 13</a></li>
+                      <li><a class="the_menu_a" href="#">iPhone 12 pro max</a></li>
+                      <li><a class="the_menu_a" href="#">iPhone 12 pro</a></li>
+                      <li><a class="the_menu_a" href="#">iPhone 12 mini</a></li>
+                      <li><a class="the_menu_a" href="#">Xem tất cả</a></li>
+                    </ul>
+                </div>  
+              </div>
+            </div>
+          </div>
+
+          <div class="iphone_smartphone">
+            <div class="row iphone_smartphone_row">
+              <div class="col-xs-12 col-sm-6 sp">
+                <div class="anh_dt">
+                  <img src="./img/img_dtdd.jpg" alt="" width="90%"  height="auto">
+                </div>
+
+                <a href="#a" class="name_dt">
+                  IPHONE 13 PRO 128GB CŨ 95%, CÒN MỚI 99,99% APPLE LL/A (1 SIM VẬT LÝ) BẢN QUỐC TẾ
+                </a>
+
+                <div class="gia_dt">
+                  20.868.000 đ
+                </div>
+
+                <div class="hotro_dt">
+                  HỖ TRỢ SHIP COD NHẬN MÁY THANH TOÁN…
+                </div>
+
+                <div class="phan_chon">
+                  <div class="nut_mua_ngay">
+                    <button class="mua">Mua ngay</button>
+                  </div>
+
+                  <div class="nut_so_sanh">
+                    <button class="sosanh">So Sánh</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 sp">
+                <div class="anh_dt">
+                  <img src="./img/img_dtdd.jpg" alt="" width="90%"  height="auto">
+                </div>
+
+                <a href="#a" class="name_dt">
+                  IPHONE 13 PRO 128GB CŨ 95%, CÒN MỚI 99,99% APPLE LL/A (1 SIM VẬT LÝ) BẢN QUỐC TẾ
+                </a>
+
+                <div class="gia_dt">
+                  20.868.000 đ
+                </div>
+
+                <div class="hotro_dt">
+                  HỖ TRỢ SHIP COD NHẬN MÁY THANH TOÁN…
+                </div>
+
+                <div class="phan_chon">
+                  <div class="nut_mua_ngay">
+                    <button class="mua">Mua ngay</button>
+                  </div>
+
+                  <div class="nut_so_sanh">
+                    <button class="sosanh">So Sánh</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 sp">
+                <div class="anh_dt">
+                  <img src="./img/img_dtdd.jpg" alt="" width="90%"  height="auto">
+                </div>
+
+                <a href="#a" class="name_dt">
+                  IPHONE 13 PRO 128GB CŨ 95%, CÒN MỚI 99,99% APPLE LL/A (1 SIM VẬT LÝ) BẢN QUỐC TẾ
+                </a>
+
+                <div class="gia_dt">
+                  20.868.000 đ
+                </div>
+
+                <div class="hotro_dt">
+                  HỖ TRỢ SHIP COD NHẬN MÁY THANH TOÁN…
+                </div>
+
+                <div class="phan_chon">
+                  <div class="nut_mua_ngay">
+                    <button class="mua">Mua ngay</button>
+                  </div>
+
+                  <div class="nut_so_sanh">
+                    <button class="sosanh">So Sánh</button>
+                  </div>
+                </div>
+              </div>
+   
+              <div class="col-xs-12 col-sm-6 sp">
+                <div class="anh_dt">
+                  <img src="./img/img_dtdd.jpg" alt="" width="90%"  height="auto">
+                </div>
+
+                <a href="#a" class="name_dt">
+                  IPHONE 13 PRO 128GB CŨ 95%, CÒN MỚI 99,99% APPLE LL/A (1 SIM VẬT LÝ) BẢN QUỐC TẾ
+                </a>
+
+                <div class="gia_dt">
+                  20.868.000 đ
+                </div>
+
+                <div class="hotro_dt">
+                  HỖ TRỢ SHIP COD NHẬN MÁY THANH TOÁN…
+                </div>
+
+                <div class="phan_chon">
+                  <div class="nut_mua_ngay">
+                    <button class="mua">Mua ngay</button>
+                  </div>
+
+                  <div class="nut_so_sanh">
+                    <button class="sosanh">So Sánh</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 sp">
+                <div class="anh_dt">
+                  <img src="./img/img_dtdd.jpg" alt="" width="90%"  height="auto">
+                </div>
+
+                <a href="#a" class="name_dt">
+                  IPHONE 13 PRO 128GB CŨ 95%, CÒN MỚI 99,99% APPLE LL/A (1 SIM VẬT LÝ) BẢN QUỐC TẾ
+                </a>
+
+                <div class="gia_dt">
+                  20.868.000 đ
+                </div>
+
+                <div class="hotro_dt">
+                  HỖ TRỢ SHIP COD NHẬN MÁY THANH TOÁN…
+                </div>
+
+                <div class="phan_chon">
+                  <div class="nut_mua_ngay">
+                    <button class="mua">Mua ngay</button>
+                  </div>
+
+                  <div class="nut_so_sanh">
+                    <button class="sosanh">So Sánh</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>    
+        </div>
+
+        <!-- -------------------iphone-------------------- -->
+        <div id="iphone">
+          <div class="loai_iphone">
+            <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2 can_iphone">
+                <a href="#iphone"><b>SAMSUNG</b></a>
+              </div>
+  
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-10">
+                <div class="the_menu">
+                    <ul class="menu_ul_dt">
+                      <li><a class="the_menu_a" href="#">iPhone 13 pro max</a></li>
+                      <li><a class="the_menu_a" href="#">iPhone 13 pro</a></li>
+                      <li><a class="the_menu_a" href="#">iPhone 13</a></li>
+                      <li><a class="the_menu_a" href="#">iPhone 12 pro max</a></li>
+                      <li><a class="the_menu_a" href="#">iPhone 12 pro</a></li>
+                      <li><a class="the_menu_a" href="#">iPhone 12 mini</a></li>
+                      <li><a class="the_menu_a" href="#">Xem tất cả</a></li>
+                    </ul>
+                </div>  
+              </div>
+            </div>
+          </div>
+
+          <div class="iphone_smartphone">
+            <div class="row iphone_smartphone_row">
+              <div class="col-xs-12 col-sm-6 sp">
+                <div class="anh_dt">
+                  <img src="./img/img_dtdd.jpg" alt="" width="90%"  height="auto">
+                </div>
+
+                <a href="#a" class="name_dt">
+                  IPHONE 13 PRO 128GB CŨ 95%, CÒN MỚI 99,99% APPLE LL/A (1 SIM VẬT LÝ) BẢN QUỐC TẾ
+                </a>
+
+                <div class="gia_dt">
+                  20.868.000 đ
+                </div>
+
+                <div class="hotro_dt">
+                  HỖ TRỢ SHIP COD NHẬN MÁY THANH TOÁN…
+                </div>
+
+                <div class="phan_chon">
+                  <div class="nut_mua_ngay">
+                    <button class="mua">Mua ngay</button>
+                  </div>
+
+                  <div class="nut_so_sanh">
+                    <button class="sosanh">So Sánh</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 sp">
+                <div class="anh_dt">
+                  <img src="./img/img_dtdd.jpg" alt="" width="90%"  height="auto">
+                </div>
+
+                <a href="#a" class="name_dt">
+                  IPHONE 13 PRO 128GB CŨ 95%, CÒN MỚI 99,99% APPLE LL/A (1 SIM VẬT LÝ) BẢN QUỐC TẾ
+                </a>
+
+                <div class="gia_dt">
+                  20.868.000 đ
+                </div>
+
+                <div class="hotro_dt">
+                  HỖ TRỢ SHIP COD NHẬN MÁY THANH TOÁN…
+                </div>
+
+                <div class="phan_chon">
+                  <div class="nut_mua_ngay">
+                    <button class="mua">Mua ngay</button>
+                  </div>
+
+                  <div class="nut_so_sanh">
+                    <button class="sosanh">So Sánh</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 sp">
+                <div class="anh_dt">
+                  <img src="./img/img_dtdd.jpg" alt="" width="90%"  height="auto">
+                </div>
+
+                <a href="#a" class="name_dt">
+                  IPHONE 13 PRO 128GB CŨ 95%, CÒN MỚI 99,99% APPLE LL/A (1 SIM VẬT LÝ) BẢN QUỐC TẾ
+                </a>
+
+                <div class="gia_dt">
+                  20.868.000 đ
+                </div>
+
+                <div class="hotro_dt">
+                  HỖ TRỢ SHIP COD NHẬN MÁY THANH TOÁN…
+                </div>
+
+                <div class="phan_chon">
+                  <div class="nut_mua_ngay">
+                    <button class="mua">Mua ngay</button>
+                  </div>
+
+                  <div class="nut_so_sanh">
+                    <button class="sosanh">So Sánh</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 sp">
+                <div class="anh_dt">
+                  <img src="./img/img_dtdd.jpg" alt="" width="90%"  height="auto">
+                </div>
+
+                <a href="#a" class="name_dt">
+                  IPHONE 13 PRO 128GB CŨ 95%, CÒN MỚI 99,99% APPLE LL/A (1 SIM VẬT LÝ) BẢN QUỐC TẾ
+                </a>
+
+                <div class="gia_dt">
+                  20.868.000 đ
+                </div>
+
+                <div class="hotro_dt">
+                  HỖ TRỢ SHIP COD NHẬN MÁY THANH TOÁN…
+                </div>
+
+                <div class="phan_chon">
+                  <div class="nut_mua_ngay">
+                    <button class="mua">Mua ngay</button>
+                  </div>
+
+                  <div class="nut_so_sanh">
+                    <button class="sosanh">So Sánh</button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-6 sp">
+                <div class="anh_dt">
+                  <img src="./img/img_dtdd.jpg" alt="" width="90%"  height="auto">
+                </div>
+
+                <a href="#a" class="name_dt">
+                  IPHONE 13 PRO 128GB CŨ 95%, CÒN MỚI 99,99% APPLE LL/A (1 SIM VẬT LÝ) BẢN QUỐC TẾ
+                </a>
+
+                <div class="gia_dt">
+                  20.868.000 đ
+                </div>
+
+                <div class="hotro_dt">
+                  HỖ TRỢ SHIP COD NHẬN MÁY THANH TOÁN…
+                </div>
+
+                <div class="phan_chon">
+                  <div class="nut_mua_ngay">
+                    <button class="mua">Mua ngay</button>
+                  </div>
+
+                  <div class="nut_so_sanh">
+                    <button class="sosanh">So Sánh</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ------------------uu_dai----------------- -->
+        <div id="uu_dai">
+          <div class="row uu_dai_row">
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+              <div class="uu_dai_chung">
+                <div class="icon_loai_uu_dai">
+                  <img src="./img/icon_uudai1.png" alt="" width="50px" height="auto">
+                </div>
+
+                <div class="name_uu_dai">
+                  <b class="name_ud1">
+                    GIAO HÀNG CỰC NHANH
+                  </b>
+
+                  <div class="name_ud2">
+                    Miễn Phí Đơn Hàng Nội Thành
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+              <div class="uu_dai_chung">
+                <div class="icon_loai_uu_dai">
+                  <img src="./img/icon_uudai1.png" alt="" width="50px" height="auto">
+                </div>
+
+                <div class="name_uu_dai">
+                  <b class="name_ud1">
+                    MUA HÀNG SIÊU TIẾT KIỆM
+                  </b>
+
+                  <div class="name_ud2">
+                    Rẻ Hơn 10%-15% Theo Giá Thị Trường
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+              <div class="uu_dai_chung">
+                <div class="icon_loai_uu_dai">
+                  <img src="./img/icon_uudai1.png" alt="" width="50px" height="auto">
+                </div>
+
+                <div class="name_uu_dai">
+                  <b class="name_ud1">
+                    SẢN PHẨM CHÍNH HÃNG 100%
+                  </b>
+
+                  <div class="name_ud2">
+                    Cam Kết Hàng Nhập Khẩu 100% Chính Hãng
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <!-- ------------------dang_ky----------------- -->
+        <div id="dang_ky">
+            <div class="row dk_row">
+              <div class="col-xs-12 col-sm-12 col-md-8 col-lg-9">
+                <div class="thong_tin_dang_ky">
+                  <div class="icon_hop_thu">
+                    <img src="./img/icon_mail.png" alt="">
+                  </div>
+                  
+                  <div class="dang_ky_km">
+                    <div class="dkkm1">
+                      ĐĂNG KÝ NHẬN BẢN TIN KHUYẾN MẠI
+                    </div>
+    
+                    <div class="dkkm2">
+                      Đừng bỏ lỡ hàng ngàn sản phẩm và chương trình siêu hấp dẫn
+                    </div>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3">
+                <form action="" class="form_dk">
+                  <input type="text" name="" id="" placeholder="Nhập Email của bạn..." width="100%" class="nhap_dk">
+                  <button class="button_dk">Đăng ký</button>
+                </form>
+              </div>
+            </div>
+        </div>
+        <div class="container">
+        <!-- ------------------lien_lac----------------- -->
+        <div id="lien_lac">
+          <div class="row lien_lac_row">
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+              <div class="gioi_thieu">
+                <div class="tittle">
+                  Giới Thiệu
+                </div>
+
+                <div class="gt1">
+                  Bảo Tuyết Mobile - Trung Tâm Smartphone chính hãng
+                </div>
+
+                <div class="gt2">
+                  Cửa hàng bán lẻ điện thoại di động, smartphone,ipad,laptop, phụ kiện chính hãng, giá tốt nhất kèm theo khuyến mãi hấp dẫn.
+                </div>
+
+                <div class="gt3">
+                  <b>Hotline: </b>
+                  <a href="tel:0984343469">0984.3434.69</a>
+                </div>
+
+                <div class="gt4">
+                  18 Sơn Tây - Đống Đa - Hà Nội(Gần cây xăng Nam Đồng)
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+              <div class="lien-he">
+                <div class="tittle">
+                  Liên Hệ
+                </div>
+
+                <div class="gt5">
+                  <b>Tư vấn bán hàng (8h00 - 22h00)</b>
+                  <div class="dien_thoai_lh">
+                    <b>Hotline: </b>
+                    <a href="tel:0984343469">0984.3434.69</a>
+                  </div>
+                </div>
+
+                <div class="gt5">
+                  <b>Hỗ trợ kỹ thuật</b> <br>
+                  <b>(9h30 - 12h30 ; 14h - 18h30)</b>
+                  <div class="dien_thoai_lh">
+                    <b>Hotline: </b>
+                    <a href="tel:0915926606">0915.92.6606</a>
+                  </div>
+                </div>
+
+                <div class="gt5">
+                  <b>Tư vấn trả góp (9h00 - 21h00)</b>
+                  <div class="dien_thoai_lh">
+                    <b>Hotline: </b>
+                    <a href="tel:0971231818">097.123.1818</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+              <div class="facebook">
+                <div class="tittle">
+                  Facebook
+                </div>
+
+                <div class="anh_fb">
+                  <img src="./img/anh_fb.png" alt="" height="auto" width="100%">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- --------------------------footer1------------------------ -->
+      <div id="footer1">
+        <div class="row footer_row">
+          <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+            <div class="gioi_thieu_footer">
+              <div class="tittle_footer">
+                Sửa Chữa IPhone
+              </div>
+
+              <div class="gt1_footer">
+                <a href="#gt">
+                  <i class="fa-solid fa-bolt" style="color: #bf2b2b;"></i>
+                  Sửa chữa iPhone
+                </a>
+              </div>
+
+              <div class="gt2_footer">
+                - HKD MOBILE BẢO TUYẾT
+              </div>
+
+              <div class="gt2_footer">
+                - Số ĐKKD 01E8026060 do UBND Q. Đống Đa cấp ngày 21/06/2018
+              </div>
+
+              <div class="gt2_footer">
+                - Người địa diện: Nguyễn Thị Thanh Huyền
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+            <div class="gioi_thieu_footer">
+              <div class="tittle_footer">
+                Chính Sách Bán Hàng
+              </div>
+
+              <div class="gt1_footer">
+                <a href="#gt">
+                  <i class="fa-solid fa-bolt" style="color: #bf2b2b;"></i>
+                  Chính sách bảo mật thông tin
+                </a>
+              </div>
+
+              <div class="gt1_footer">
+                <a href="#gt" class="gt1_footer">
+                  <i class="fa-solid fa-bolt" style="color: #bf2b2b;"></i>
+                  Chính sách vận chuyển
+                </a>
+              </div>
+
+              <div class="gt1_footer">
+                <a href="#gt">
+                  <i class="fa-solid fa-bolt" style="color: #bf2b2b;"></i>
+                  Chính sách đổi trả
+                </a>
+              </div>
+
+
+              <div class="gt1_footer">
+                <a href="#gt">
+                  <i class="fa-solid fa-bolt" style="color: #bf2b2b;"></i>
+                  Chính scahs thanh toán
+                </a>
+              </div>
+
+              <div class="gt1_footer">
+                <a href="#gt">
+                  <i class="fa-solid fa-bolt" style="color: #bf2b2b;"></i>
+                  Chính sách bảo hành
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+            <div class="gioi_thieu_footer">
+              <div class="tittle_footer">
+                Hướng Dẫn
+              </div>
+
+              <div class="gt1_footer">
+                <a href="#gt" class="gt1_footer">
+                  <i class="fa-solid fa-bolt" style="color: #bf2b2b;"></i>
+                  Hướng dẫn mua hàng từ xa
+                </a>
+              </div>
+
+              <div class="gt1_footer">
+                <a href="#gt">
+                  <i class="fa-solid fa-bolt" style="color: #bf2b2b;"></i>
+                  Đặt hàng qua Facebook
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+            <div class="gioi_thieu_footer">
+              <div class="tittle_footer">
+                Giới Thiệu
+              </div>
+
+              <div class="gt1_footer">
+                <a href="#gt">
+                  <i class="fa-solid fa-bolt" style="color: #bf2b2b;"></i>
+                  Giới thiệu
+                </a>
+              </div>
+
+              <div class="gt1_footer">
+                <a href="#gt">
+                  <i class="fa-solid fa-bolt" style="color: #bf2b2b;"></i>
+                  Sản Phẩm
+                </a>
+              </div>
+
+              <div class="gt1_footer">
+                <a href="#gt">
+                  <i class="fa-solid fa-bolt" style="color: #bf2b2b;"></i>
+                  Khuyến mại
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- --------------------------footer2------------------------ -->
+      <div id="footer2">
+        Thiết kế bởi Bota
+      </div>
+
+    
+</body>
+</html>

@@ -1,0 +1,577 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style-type: none;
+}
+
+body{
+    position: relative;
+    height: 100%;
+    background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+}
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+button{
+    border: none;
+}
+
+/* -----------------menu--------------- */
+#menu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.menu{
+    margin: auto;
+}
+
+.menu_con{
+    background-color: #fff !important;
+    width: 100% !important; 
+}
+
+.form_menu{
+    display: flex;
+}
+
+.theMenucach{
+    margin-left: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+.candoi{
+    display: flex;
+}
+
+.ul_cha{
+    /* overflow: scroll !important; */
+}
+
+.ul_cha>li{
+    text-align: center;
+}
+
+.ul_cha li a{
+    color: #000;
+}
+
+.ul_cha li:hover .navbar_phu{
+    display: block;
+}
+
+.ul_cha li:hover a{
+    color: #bf2b2b;
+}
+
+.navbar_phu li:hover a{
+    color: #000;
+}   
+
+.ul_cha li a img{
+    margin-bottom: 5px;
+}
+
+@media (max-width: 992px) {
+    .navbar-collapse {
+        position: fixed;
+        top: 50px;
+        left: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        width: 75%;
+        height: 100%;
+    }
+
+    .ul_cha{
+        overflow: scroll !important;
+    }
+
+    .navbar-collapse.collapsing {
+        left: -75%;
+        transition: height 0s ease;
+    }
+
+    .navbar-collapse.show {
+        left: 0;
+        transition: left 300ms ease-in-out;
+    }
+
+    .navbar-toggler.collapsed ~ .navbar-collapse {
+        transition: left 500ms ease-in-out;
+    }
+}
+
+@media (max-width: 685px){
+    .theMenucach{
+        position: fixed;
+        float: right;
+        right: 20px;
+        top: 20px;
+    }
+
+    .form_menu{
+        width: 100%;
+    }
+}
+/* -----------------banner--------------- */
+#banner{
+    margin-top: var(--height);
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+.swiper-button-prev,
+.swiper-button-next{
+    display: none;
+}
+
+.swiper:hover .swiper-button-prev,
+.swiper:hover .swiper-button-next{
+    display: block;
+}
+
+/* -----------------thong_tin--------------- */
+#thong_tin{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.name_thong_tin{
+    font-size: 36px;
+    color: rgb(135, 135, 135);
+}
+
+.name_thong_tin2{
+    font-size: 24px;
+    color: rgb(141, 141, 141);
+}
+
+/* ------------------------thong_tin2----------------- */
+#thong_tin2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.swiper-slide{
+    background-color: #eee;
+}
+
+#thong_tin2 img{
+    max-width: 60%;
+}
+
+/* ----------------------iphone----------------- */
+#iphone{
+    z-index: 0;
+    margin: 0 5%;
+}
+
+#iphone .sp:hover img{
+    width: 100%;
+}
+
+#iphone a{
+    color: #000;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.iphone_smartphone .sp:hover a{
+    color: rgb(209, 3, 3) !important;
+}
+
+
+.menu_ul_dt{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.gia_dt{
+    color: rgb(209, 3, 3) !important;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.hotro_dt{
+    color: rgb(154, 146, 146);
+}
+
+.loai_iphone{
+    
+}
+
+.can_iphone{
+    line-height: 20px;
+}
+
+.iphone_smartphone{
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+.can_iphone a{
+    line-height: 50px;
+}
+
+.smart_phone:hover{
+    box-shadow: 1px 2px 5px 2px rgb(169, 169, 169); 
+}
+
+.smart_phone:hover img{
+    width: 100%;
+}
+
+.phan_chon{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.mua{
+    padding: 5px 10px;
+    background-color: rgb(209, 3, 3);
+    color: #fff;
+}
+
+.sosanh{
+    padding: 5px 10px;
+    background-color: rgb(169, 169, 169);
+    color: #fff;
+}
+
+/* -------------------uu_dai------------------------ */
+#uu_dai{
+    background-color: rgb(250, 250, 250);
+    margin: 20px 5%;
+    padding: 20px 0;
+}
+
+.uu_dai_chung{
+    display: flex;
+}
+
+.name_uu_dai{
+    padding-left: 5px;
+}
+
+.name_ud2{
+    color: rgb(152, 152, 152);
+}
+
+/* -------------------dang_ky----------------- */
+#dang_ky{
+    background-image: url(../img/background_maillh.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.dk_row{
+    margin: 20px 5%;
+}
+
+.thong_tin_dang_ky{
+    display: flex;
+}
+
+.dang_ky_km{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.dkkm1{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.dkkm2{
+    font-size: 13px;
+}
+
+.form_dk{
+    margin-top: 20px;
+}
+
+.nhap_dk{
+    padding: 0 10px;
+}
+
+.button_dk{
+    background-color: #bf2b2b;
+    border: none;
+    color: #fff;
+    padding: 2px 10px;
+}
+
+/* ----------------------lien_lac---------------- */  
+#lien_lac{
+    margin: 50px 0;    
+}
+
+.lien_lac_row{
+    margin: 0 5%;
+}
+
+.gioi_thieu{
+    
+}
+
+.tittle{
+    border-color: #bf2f2f;
+    color: #bf2f2f;
+    border-radius: 30px;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: normal;
+    display: inline-block;
+    border: 1px solid #bf2f2f;
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin-top: 11.5px;
+    margin-bottom: 11.5px;
+}
+
+.gt1{
+    font-size: 18px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.gt2{
+    margin-bottom: 20px;
+}
+
+.gt3 a{
+    color: blue;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.gt5{
+    padding: 10px 0;
+    border-bottom: #000 dashed 2px ;
+}
+
+.gt5 a{
+    color: #bf2b2b;
+    font-weight: 600;
+}
+
+.anh_fb{
+    margin-top: 10px;
+}
+
+/* ---------------------------footer1----------------------------- */
+#footer1{
+    background-color: rgb(43, 43, 43);
+    color: #fff;
+}
+
+.gt1_footer a{
+    color: rgb(199, 199, 199) !important;
+    text-decoration: none;
+}
+
+.footer_row{
+    padding: 20px 5%;
+}
+
+.tittle_footer{
+    border-color: #bf2f2f;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 16px;
+    /* text-transform: capitalize; */
+    font-weight: normal;
+    display: inline-block;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin-top: 11.5px;
+    margin-bottom: 30px;
+}
+
+.gt1_footer{
+    margin: 5px 0;
+}
+
+#footer1 a:hover{
+    color: #fff !important;
+    margin-left: 20px;
+}
+
+/* ----------------------------footer2--------------------------- */
+#footer2{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 16px;
+}
+
+/* --------------------------media_min--------------------------- */
+@media screen and (min-width: 675px){
+    .sp{
+        flex: none;
+        width: 33%;
+    }
+}
+
+@media screen and (min-width: 0px){
+    #banner{
+        margin-top: 83px;
+    }
+}
+
+@media screen and (min-width: 222px){
+    #banner{
+        margin-top: 119.5px;
+    }
+}
+
+@media screen and (min-width: 685px){
+    #banner{
+        margin-top: 83px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .dk_row{
+        min-width: 992px;
+    }
+
+    #banner{
+        margin-top: 104px;
+    }
+
+    .menu_con{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    #banner{
+        margin-top: 83px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .sp{
+        flex: none;
+        width: 20%;
+    }
+
+    .logo_row{
+        min-width: 1300px;
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 1400px){
+    #menu,
+    #footer1,
+    #lien_lac,
+    #dang_ky,
+    #uu_dai,
+    #menu_con,
+    #logo{
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer_row{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+/* --------------------------media_max--------------------------- */
+@media screen and (max-width: 1200px){
+    .logo_row{
+        max-width: 1200px;
+        width: 100%;
+    }
+
+    .dk_row{
+        max-width: 1200px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .ul_cha>li>a{
+        display: flex;
+    }
+
+    .ul_cha li a img{
+        margin-bottom: 0;
+    }
+
+    .the_ten{
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 575px){
+    .logo_a{
+        display: flex;
+    }
+    .logo{
+        margin: auto;
+    }
+
+    .form-inline{
+        margin: auto;
+    }
+
+    .logo{
+        margin-left: 0;
+    }
+}
